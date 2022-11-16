@@ -1,0 +1,71 @@
+insert into lugares (piso,lugar,patente_l,estado_l) values ('S1','AAA','-','LIBRE');
+insert into lugares (piso,lugar,patente_l,estado_l) values ('S1','AAB','-','LIBRE');
+insert into lugares (piso,lugar,patente_l,estado_l) values ('S1','AAC','-','LIBRE');
+insert into lugares (piso,lugar,patente_l,estado_l) values ('S1','AAD','-','LIBRE');
+insert into lugares (piso,lugar,patente_l,estado_l) values ('S1','ABA','-','LIBRE');
+insert into lugares (piso,lugar,patente_l,estado_l) values ('S1','ABB','-','LIBRE');
+insert into lugares (piso,lugar,patente_l,estado_l) values ('S1','ABC','-','LIBRE');
+insert into lugares (piso,lugar,patente_l,estado_l) values ('S1','ABD','-','LIBRE');
+
+insert into lugares (piso,lugar,patente_l,estado_l) values ('1','BAA','-','LIBRE');
+insert into lugares (piso,lugar,patente_l,estado_l) values ('1','BAB','-','LIBRE');
+insert into lugares (piso,lugar,patente_l,estado_l) values ('1','BAC','-','LIBRE');
+insert into lugares (piso,lugar,patente_l,estado_l) values ('1','BAD','-','LIBRE');
+insert into lugares (piso,lugar,patente_l,estado_l) values ('1','BBA','-','LIBRE');
+insert into lugares (piso,lugar,patente_l,estado_l) values ('1','BBB','-','LIBRE');
+insert into lugares (piso,lugar,patente_l,estado_l) values ('1','BBC','-','LIBRE');
+insert into lugares (piso,lugar,patente_l,estado_l) values ('1','BBD','-','LIBRE');
+
+insert into lugares (piso,lugar,patente_l,estado_l) values ('2','CAA','-','LIBRE');
+insert into lugares (piso,lugar,patente_l,estado_l) values ('2','CAB','-','LIBRE');
+insert into lugares (piso,lugar,patente_l,estado_l) values ('2','CAC','-','LIBRE');
+insert into lugares (piso,lugar,patente_l,estado_l) values ('2','CAD','-','LIBRE');
+insert into lugares (piso,lugar,patente_l,estado_l) values ('2','CBA','-','LIBRE');
+insert into lugares (piso,lugar,patente_l,estado_l) values ('2','CBB','-','LIBRE');
+insert into lugares (piso,lugar,patente_l,estado_l) values ('2','CBC','-','LIBRE');
+insert into lugares (piso,lugar,patente_l,estado_l) values ('2','CBD','-','LIBRE');
+
+insert into lugares (piso,lugar,patente_l,estado_l) values ('3','DAA','-','LIBRE');
+insert into lugares (piso,lugar,patente_l,estado_l) values ('3','DAB','-','LIBRE');
+insert into lugares (piso,lugar,patente_l,estado_l) values ('3','DAC','-','LIBRE');
+insert into lugares (piso,lugar,patente_l,estado_l) values ('3','DAD','-','LIBRE');
+insert into lugares (piso,lugar,patente_l,estado_l) values ('3','DBA','-','LIBRE');
+insert into lugares (piso,lugar,patente_l,estado_l) values ('3','DBB','-','LIBRE');
+insert into lugares (piso,lugar,patente_l,estado_l) values ('3','DBC','-','LIBRE');
+insert into lugares (piso,lugar,patente_l,estado_l) values ('3','DBD','-','LIBRE');
+
+insert into lugares (piso,lugar,patente_l,estado_l) values ('4','EAA','-','LIBRE');
+insert into lugares (piso,lugar,patente_l,estado_l) values ('4','EAB','-','LIBRE');
+insert into lugares (piso,lugar,patente_l,estado_l) values ('4','EAC','-','LIBRE');
+insert into lugares (piso,lugar,patente_l,estado_l) values ('4','EAD','-','LIBRE');
+insert into lugares (piso,lugar,patente_l,estado_l) values ('4','EBA','-','LIBRE');
+insert into lugares (piso,lugar,patente_l,estado_l) values ('4','EBB','-','LIBRE');
+insert into lugares (piso,lugar,patente_l,estado_l) values ('4','EBC','-','LIBRE');
+insert into lugares (piso,lugar,patente_l,estado_l) values ('4','EBD','-','LIBRE');
+
+insert into lugares (piso,lugar,patente_l,estado_l) values ('5','FAA','-','LIBRE');
+insert into lugares (piso,lugar,patente_l,estado_l) values ('5','FAB','-','LIBRE');
+insert into lugares (piso,lugar,patente_l,estado_l) values ('5','FAC','-','LIBRE');
+insert into lugares (piso,lugar,patente_l,estado_l) values ('5','FAD','-','LIBRE');
+insert into lugares (piso,lugar,patente_l,estado_l) values ('5','FBA','-','LIBRE');
+insert into lugares (piso,lugar,patente_l,estado_l) values ('5','FBB','-','LIBRE');
+insert into lugares (piso,lugar,patente_l,estado_l) values ('5','FBC','-','LIBRE');
+insert into lugares (piso,lugar,patente_l,estado_l) values ('5','FBD','-','LIBRE');
+
+insert into lugares (piso,lugar,patente_l,estado_l) values ('6','GAA','-','LIBRE');
+insert into lugares (piso,lugar,patente_l,estado_l) values ('6','GAB','-','LIBRE');
+insert into lugares (piso,lugar,patente_l,estado_l) values ('6','GAC','-','LIBRE');
+insert into lugares (piso,lugar,patente_l,estado_l) values ('6','GAD','-','LIBRE');
+insert into lugares (piso,lugar,patente_l,estado_l) values ('6','GBA','-','LIBRE');
+insert into lugares (piso,lugar,patente_l,estado_l) values ('6','GBB','-','LIBRE');
+insert into lugares (piso,lugar,patente_l,estado_l) values ('6','GBC','-','LIBRE');
+insert into lugares (piso,lugar,patente_l,estado_l) values ('6','GBD','-','LIBRE');
+
+insert into lugares (piso,lugar,patente_l,estado_l) values ('7','HAA','-','LIBRE');
+insert into lugares (piso,lugar,patente_l,estado_l) values ('7','HAB','-','LIBRE');
+insert into lugares (piso,lugar,patente_l,estado_l) values ('7','HAC','-','LIBRE');
+insert into lugares (piso,lugar,patente_l,estado_l) values ('7','HAD','-','LIBRE');
+insert into lugares (piso,lugar,patente_l,estado_l) values ('7','HBA','-','LIBRE');
+insert into lugares (piso,lugar,patente_l,estado_l) values ('7','HBB','-','LIBRE');
+insert into lugares (piso,lugar,patente_l,estado_l) values ('7','HBC','-','LIBRE');
+insert into lugares (piso,lugar,patente_l,estado_l) values ('7','HBD','-','LIBRE');

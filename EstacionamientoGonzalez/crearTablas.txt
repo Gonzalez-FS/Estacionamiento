@@ -1,0 +1,79 @@
+CREATE TABLE `estacionamiento`.`admins` (
+  `id_admin` INT NOT NULL AUTO_INCREMENT,
+  `username_a` VARCHAR(45) NOT NULL,
+      `password_a` VARCHAR(45) NOT NULL,
+  PRIMARY KEY (`id_admin`));
+
+CREATE TABLE `estacionamiento`.`encargados` (
+  `id_encargado` INT NOT NULL AUTO_INCREMENT,
+  `username_e` VARCHAR(45) NOT NULL,
+  `password_e` VARCHAR(45) NOT NULL,
+  PRIMARY KEY (`id_encargado`));
+
+CREATE TABLE `estacionamiento`.`informes` (
+  `id_informe` INT NOT NULL AUTO_INCREMENT,
+  `tipo` VARCHAR(45) NOT NULL,
+  `cantidad_total` int NOT NULL,
+  PRIMARY KEY (`id_informe`));
+
+CREATE TABLE `estacionamiento`.`pagos` (
+  `id_pago` INT NOT NULL AUTO_INCREMENT,
+  `fecha` VARCHAR(45) NOT NULL,
+  `monto` int NOT NULL,
+  `tipo_pago` VARCHAR(45) NOT NULL,
+  `patente` VARCHAR(45) NOT NULL,
+  PRIMARY KEY (`id_pago`));
+
+CREATE TABLE `estacionamiento`.`lugares` (
+  `id_lugar` INT NOT NULL AUTO_INCREMENT,
+  `piso` VARCHAR(45) NOT NULL,
+  `lugar` VARCHAR(45) NOT NULL,
+  `patente_l` VARCHAR(45) NOT NULL,
+  `estado_l` VARCHAR(45) NOT NULL,
+  PRIMARY KEY (`id_ganancia`));
+
+  CREATE TABLE `estacionamiento`.`invitados` (
+  `id_invitado` INT NOT NULL AUTO_INCREMENT,
+  `id_lugar` INT NOT NULL,
+  CONSTRAINT `id_lugar_invitado`
+    FOREIGN KEY (`id_lugar`)
+    REFERENCES `estacionamiento`.`lugares` (`id_lugar`)
+    ON DELETE NO ACTION
+    ON UPDATE NO ACTION,
+  `hora_entrada_i` VARCHAR(45) NOT NULL,
+   `hora_salida_i` VARCHAR(45) NOT NULL,
+   `patente_i` VARCHAR(45) NOT NULL,
+   `deuda_i` INT NOT NULL,
+  PRIMARY KEY (`id_invitado`));
+
+CREATE TABLE `estacionamiento`.`usuarios` (
+  `id_usuario` INT NOT NULL AUTO_INCREMENT,
+  `id_lugar` INT NOT NULL,
+  CONSTRAINT `id_lugar_usuario`
+    FOREIGN KEY (`id_lugar`)
+    REFERENCES `estacionamiento`.`lugares` (`id_lugar`)
+    ON DELETE NO ACTION
+    ON UPDATE NO ACTION,
+  `Nombre` VARCHAR(45) NOT NULL,
+      `apellido` VARCHAR(45) NOT NULL,
+      `patente_u` VARCHAR(45) NOT NULL,
+      `marca` VARCHAR(45) NOT NULL,
+      `modelo` VARCHAR(45) NOT NULL,
+    `direccion` VARCHAR(45) NOT NULL,
+      `telefono` VARCHAR(45) NOT NULL,
+    `estado` VARCHAR(45) NOT NULL,
+  PRIMARY KEY (`id_usuario`));
+  
+  CREATE TABLE `estacionamiento`.`visitas` (
+  `id_visita` INT NOT NULL AUTO_INCREMENT,
+  `id_lugar` INT NOT NULL,
+  CONSTRAINT `id_lugar_visita`
+    FOREIGN KEY (`id_lugar`)
+    REFERENCES `estacionamiento`.`lugares` (`id_lugar`)
+    ON DELETE NO ACTION
+    ON UPDATE NO ACTION,
+  `hora_entrada` VARCHAR(45) NOT NULL,
+     `hora_salida` VARCHAR(45) NOT NULL,
+     `patente_v` VARCHAR(45) NOT NULL,
+     `fecha_v` VARCHAR(45) NOT NULL,
+  PRIMARY KEY (`id_visita`));
