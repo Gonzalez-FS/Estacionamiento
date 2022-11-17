@@ -8,6 +8,7 @@ CREATE TABLE `estacionamiento`.`encargados` (
   `id_encargado` INT NOT NULL AUTO_INCREMENT,
   `username_e` VARCHAR(45) NOT NULL,
   `password_e` VARCHAR(45) NOT NULL,
+  `turno_e` VARCHAR(45) NOT NULL,
   PRIMARY KEY (`id_encargado`));
 
 CREATE TABLE `estacionamiento`.`informes` (
