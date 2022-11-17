@@ -1,4 +1,0 @@
-insert into informes (tipo,cantidad total) values ('ganancia del dia',0);
-insert into informes (tipo,cantidad total) values ('ganancia mensual',0);
-insert into informes (tipo,cantidad total) values ('vehiculos del dia',0);
-insert into informes (tipo,cantidad total) values ('vehiculos del mes',0);
