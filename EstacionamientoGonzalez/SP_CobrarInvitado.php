@@ -13,7 +13,7 @@ $consulta2="update lugares set patente_l = '-' where patente_l = '$patente_i';";
 $consulta3= "insert into pagos (fecha,monto,patente,tipo_pago) values ((select current_date()),(select deuda_i from invitados where patente_i = '$patente_i'),'$patente_i','invitado');"; 
 $consulta4= "update invitados set deuda_i = 0 where patente_i = '$patente_i';";
 
-if ($conexion->query($consulta) === TRUE && $conexion->query($consulta2) === TRUE && $conexion->query($consulta3) === TRUE && $conexion->query($consulta4) === TRUE) {
+if ($conexion->query($consulta) === TRUE && $conexion->query($consulta1) === TRUE && $conexion->query($consulta2) === TRUE && $conexion->query($consulta3) === TRUE && $conexion->query($consulta4) === TRUE) {
     include("PagoInvitado.php");
   ?>
   <center>
