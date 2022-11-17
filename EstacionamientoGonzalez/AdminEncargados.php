@@ -19,6 +19,9 @@ include('db.php');
     <head>Username <input type='text' id='username_E' name='username_E' autoComplete='off'/></head>
     <br>
     <head>Contraseña <input type="text" id="password_E" name="password_E" autoComplete='off'/></head>
+    <br>
+    <head>Turno <input type='text' id='turno_E' name='turno_E' autoComplete='off'/></head>
+    <br>
     <header> </header>
     <input type="Submit" class="boton"></input>
     </form>
@@ -41,6 +44,7 @@ include('db.php');
         <td>ID_encargado</td>
         <td>username_E</td>
         <td>password_E</td>
+        <td>turno_E</td>
     </tr>
     <?php
         $sql="SELECT * FROM encargados";
@@ -52,6 +56,7 @@ include('db.php');
         <td><?php echo $mostrar['id_encargado']?></td>
         <td><?php echo $mostrar['username_e']?></td>
         <td><?php echo $mostrar['password_e']?></td>
+        <td><?php echo $mostrar['turno_e']?></td>
     </tr>
     <?php
         }
