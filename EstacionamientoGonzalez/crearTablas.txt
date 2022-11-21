@@ -31,7 +31,7 @@ CREATE TABLE `estacionamiento`.`lugares` (
   `lugar` VARCHAR(45) NOT NULL,
   `patente_l` VARCHAR(45) NOT NULL,
   `estado_l` VARCHAR(45) NOT NULL,
-  PRIMARY KEY (`id_ganancia`));
+  PRIMARY KEY (`id_lugar`));
 
   CREATE TABLE `estacionamiento`.`invitados` (
   `id_invitado` INT NOT NULL AUTO_INCREMENT,
